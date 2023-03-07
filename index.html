@@ -16,21 +16,79 @@
     <header class="page-header">
         <div class="page-header-container container">
             <nav class="page-navigation">
-            <a class="logo-link link" href="./index.html">Web
-                <span class="second-part-logo-link">Studio</span> 
-            </a>
-            <ul class="menu list">
-              <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
-              <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
-              <li class="menu-item"><a class="menu-link link" href="">Contacts</a></li>
-            </ul>
+                <a class="logo-link link" href="./index.html">Web
+                    <span class="second-part-logo-link">Studio</span> 
+                </a>
+                <ul class="menu list">
+                    <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
+                    <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="menu-item"><a class="menu-link link" href="">Contacts</a></li>
+                </ul>
             </nav>
-        
+            <button type="button" class="mobile-menu-open" data-menu-open>
+                <svg class="mobile-menu-open-icon" width="32" viewBox="0 0 32 22">
+                    <use href="./images/icons.svg#burger-icon"></use>
+                </svg>
+            </button>
             <ul class="contacts list">
                 <li class="contacts-list-item"><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="contacts-list-item"><a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </div>
+        
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu" data-menu>
+            <button type="button" class="mobile-menu-close-btn" data-menu-close>
+                <svg class="mobile-menu-close-btn-icon" width="8" viewBox="0 0 8 8">
+                    <use href="./images/icons.svg#close-modal"></use>
+                </svg>
+            </button>
+            <div class="mobile-menu-container">
+                <nav class="mobile-page-nav">
+                    <ul class="mobile-nav-menu list">
+                        <li class="mobile-nav-menu-item"><a class="mobile-nav-menu-link link" href="./index.html">Studio</a></li>
+                        <li class="mobile-nav-menu-item"><a class="mobile-nav-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                        <li class="mobile-nav-menu-item"><a class="mobile-nav-menu-link link" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <ul class="mobile-contacts list">
+                    <li class="mobile-contacts-list-item"><a class="mobile-contact-link-mail mobile-contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="mobile-contacts-list-item"><a class="mobile-contact-link-tel mobile-contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+                <ul class="mobile-social-list list">
+                    <li class="mobile-social-list-item social-list-item">
+                        <a href="" class="mobile-social-list-link social-list-link">
+                            <svg class="mobile-social-list-icon social-list-icon" width="24" viewBox="0 0 24 24">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-list-item social-list-item">
+                        <a href="" class="mobile-social-list-link social-list-link">
+                            <svg class="mobile-social-list-icon social-list-icon" width="24" viewBox="0 0 24 24">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-list-item social-list-item">
+                        <a href="" class="mobile-social-list-link social-list-link">
+                            <svg class="mobile-social-list-icon social-list-icon" width="24" viewBox="0 0 24 24">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-social-list-item social-list-item">
+                        <a href="" class="mobile-social-list-link social-list-link">
+                            <svg class="mobile-social-list-icon social-list-icon" width="24" viewBox="0 0 24 24">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
     </header>
 
 <!-- MAIN -->
@@ -52,8 +110,8 @@
                             </svg>
                         </div>
                         
-                        <h3 class="subject">Strategy</h3>
-                        <p class="desc-subject">Our goal is to identify the business
+                        <h3 class="subject advantage-title">Strategy</h3>
+                        <p class="desc-subject desc-advantage-title">Our goal is to identify the business
                         problem to walk away with the perfect and creative solution.</p>
                     </li>
                     <li class="advantage-item">
@@ -63,8 +121,8 @@
                             </svg>
                         </div>
                         
-                        <h3 class="subject">Punctuality</h3>
-                        <p class="desc-subject">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        <h3 class="subject advantage-title">Punctuality</h3>
+                        <p class="desc-subject desc-advantage-title">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                     </li>
                     <li class="advantage-item">
                         <div class="advantage-icon-container">
@@ -73,8 +131,8 @@
                             </svg>
                         </div>
                         
-                        <h3 class="subject">Diligence</h3>
-                        <p class="desc-subject">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                        <h3 class="subject advantage-title">Diligence</h3>
+                        <p class="desc-subject desc-advantage-title">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                     </li>
                     <li class="advantage-item">
                         <div class="advantage-icon-container">
@@ -83,8 +141,8 @@
                             </svg>
                         </div>
                         
-                        <h3 class="subject">Technologies</h3>
-                        <p class="desc-subject">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        <h3 class="subject advantage-title">Technologies</h3>
+                        <p class="desc-subject desc-advantage-title">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                     </li>
                 </ul>
             </div>
@@ -95,13 +153,13 @@
                 <h2 class="section-title">What are we doing</h2>
                 <ul class="devices-images-list list">
                     <li class="devices-images-list-item">
-                        <img class="device" src="./images/devices/device-1.jpg" alt="monitor" width="360" height="300">
+                        <img srcset="./images/devices/device-1.jpg 1x, ./images/devices/device-1@2x.jpg 2x" class="device" src="./images/devices/device-1.jpg" alt="monitor" width="360" height="300">
                     </li>
                     <li class="devices-images-list-item">
-                        <img class="device" src="./images/devices/device-2.jpg" alt="smartphone" width="360" height="300">
+                        <img srcset="./images/devices/device-2.jpg 1x, ./images/devices/device-2@2x.jpg 2x" class="device" src="./images/devices/device-2.jpg" alt="smartphone" width="360" height="300">
                     </li>
                     <li class="devices-images-list-item">
-                        <img class="device" src="./images/devices/device-3.jpg" alt="smartphone in a hand" width="360" height="300">
+                        <img srcset="./images/devices/device-3.jpg 1x, ./images/devices/device-3@2x.jpg 2x" class="device" src="./images/devices/device-3.jpg" alt="smartphone in a hand" width="360" height="300">
                     </li>
                 </ul>
             </div>
@@ -113,7 +171,7 @@
                 <h2 class="section-title">Our Team</h2>
                 <ul class="employers-list list">
                     <li class="employers-list-item">
-                        <img class="employer" src="./images/employers/employer-1.jpg" alt="employer smiles" width="264" height="260">
+                        <img srcset="./images/employers/employer-1.jpg 1x, ./images/employers/employer-1@2x.jpg 2x" class="employer" src="./images/employers/employer-1.jpg" alt="employer smiles" width="264" height="260">
                         <div class="employers-card-content-wrapper">
                             <h3 class="subject">Mark Guerrero</h3>
                             <p class="desc-subject-employer desc-subject">Product Designer</p>
@@ -151,7 +209,7 @@
                             
                     </li>
                     <li class="employers-list-item">
-                        <img src="./images/employers/employer-2.jpg" alt="employer smiles" width="264" height="260">
+                        <img srcset="./images/employers/employer-2.jpg 1x, ./images/employers/employer-2@2x.jpg 2x" src="./images/employers/employer-2.jpg" alt="employer smiles" width="264" height="260">
                         <div class="employers-card-content-wrapper">
                             <h3 class="subject">Tom Ford</h3>
                             <p class="desc-subject-employer desc-subject">Frontend Developer</p>
@@ -189,7 +247,7 @@
                         
                     </li>
                     <li class="employers-list-item">
-                        <img src="./images/employers/employer-3.jpg" alt="employer smiles" width="264" height="260">
+                        <img srcset="./images/employers/employer-3.jpg 1x, ./images/employers/employer-3@2x.jpg 2x" src="./images/employers/employer-3.jpg" alt="employer smiles" width="264" height="260">
                         <div class="employers-card-content-wrapper">
                             <h3 class="subject">Camila Garcia</h3>
                             <p class="desc-subject-employer desc-subject">Marketing</p>
@@ -227,7 +285,7 @@
                         
                     </li>
                     <li class="employers-list-item">
-                        <img src="./images/employers/employer-4.jpg" alt="employer smiles" width="264" height="260">
+                        <img srcset="./images/employers/employer-4.jpg 1x, ./images/employers/employer-4@2x.jpg 2x" src="./images/employers/employer-4.jpg" alt="employer smiles" width="264" height="260">
                         <div class="employers-card-content-wrapper">
                             <h3 class="subject">Daniel Wilson</h3>
                             <p class="desc-subject-employer desc-subject">UI Designer</p> 
@@ -319,18 +377,18 @@
             </div>
             
         </section>
-    </main>
+    </main> 
 <!-- FOOTER -->
     <footer class="footer">
         <div class="footer-container container">
-            <div class="footer-text-part">
+            <div class="footer-part footer-text-part">
                 <a class="logo-link-footer logo-link link" href="./index.html">Web
                 <span class="second-part-logo-link footer-second-part-logo-link">Studio</span></a>
                 <p class="footer-text desc-subject">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
             </div>
-            <div class="footer-social-list-part">
+            <div class="footer-part footer-social-list-part">
                 <p class="footer-title-part">Social media</p>
-                <ul class="social-list list">
+                <ul class="social-list-footer social-list list">
                     <li class="social-list-item">
                         <a href="" class="social-list-link-footer social-list-link">
                             <svg class="social-list-icon" width="24" viewBox="0 0 24 24">
@@ -361,7 +419,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-form-part">
+            <div class="footer-part footer-form-part">
                 <p class="footer-title-part">Subscribe</p>
                 <form class="footer-form">
                     <label class="footer-modal-form-field">
@@ -443,8 +501,8 @@
                     </span>
                     
                 </label>
-                <span class="modal-form-input-desc">Comment</span>
                 <label class="modal-form-field modal-form-field-comment">
+                    <span class="modal-form-input-desc">Comment</span>
                     <textarea
                      name="user_comment" 
                      class="modal-form-comment" 
@@ -457,6 +515,7 @@
             </form>
         </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script> 
 </body>
 </html>
