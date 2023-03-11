@@ -632,7 +632,7 @@ img {
 
 }
 .footer-form-submit {
-    min-width: 165px;
+    width: 165px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -1058,7 +1058,7 @@ img {
 /* ===============================FOOTER===============================*/
     .footer-container {
         flex-direction: row;
-        
+        justify-content: center;
         flex-wrap: wrap;
         gap: 72px 24px;
     }
@@ -1073,11 +1073,14 @@ img {
         margin-bottom: 0;
     }
     .footer-social-list-part {
-        margin-bottom: 30px;
+        padding-bottom: 30px;
+        padding-right: 56px;
     }
 
     /* Form */
-
+    .footer-form-part {
+        padding-right: 99px;
+    }
     .footer-form {
         display: flex;
 
@@ -1089,6 +1092,7 @@ img {
         width: 264px;
         margin-bottom: 0;
     }
+
 /* ===============================FOOTER===============================*/
 
 /* ===============================MODAL WINDOW===============================*/
@@ -1233,6 +1237,7 @@ img {
 
 /* ===============================FOOTER===============================*/
     .footer-container {
+
         gap:0;
     }
     .footer-part {
@@ -1242,7 +1247,8 @@ img {
         margin-bottom: 0;
     }
     .footer-social-list-part {
-        margin-bottom: 30px;
+
+        padding-right: 0;
     }
 
 /* Form */
@@ -1251,11 +1257,7 @@ img {
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    .footer-container {
-        display: flex;
-        justify-content: center;
 
-    } 
 
 /* Text part */
     .footer-text-part {
@@ -1296,6 +1298,7 @@ img {
 /* Form */
 
 .footer-form-part {
+    padding-right: 0;
     align-self: flex-start;
 }
 .footer-modal-form-field {
